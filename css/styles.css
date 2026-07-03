@@ -113,6 +113,7 @@ select:focus,
 #dob {
     cursor: pointer;
     box-shadow: 0rem 0.4rem 5rem 0rem #0408131A;
+    width: 100%;
 }
 
 input:user-invalid,
