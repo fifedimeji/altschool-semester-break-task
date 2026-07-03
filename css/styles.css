@@ -59,10 +59,10 @@ a {
     color: #011C34;
     background-color: #FFFFFF;
     align-self: center;
-    min-width: 580px;
-    padding: 60px 30px;
-    border-radius: 6px;
-    box-shadow: 0px 4px 50px 0px #0408131A;
+    width: 58rem;
+    padding: 6rem 3rem;
+    border-radius: 0.6rem;
+    box-shadow: 0rem 0.4rem 5rem 0rem #0408131A;
 }
 
 #sign-up-form {
@@ -84,7 +84,7 @@ input,
 select,
 #dob {
     padding: 1.2rem;
-    border: 1px solid #CCCCCC;
+    border: 0.1rem solid #CCCCCC;
     transition: border-color 0.3s ease;
 }
 
@@ -93,12 +93,12 @@ select:focus,
 #dob:focus {
     outline: none;
     border-color: #2EC4B6;
-    box-shadow: 0px 4px 50px 0px #0408131A;
+    box-shadow: 0rem 0.4rem 5rem 0rem #0408131A;
 }
 
 #dob {
     cursor: pointer;
-    box-shadow: 0px 4px 50px 0px #0408131A;
+    box-shadow: 0rem 0.4rem 5rem 0rem #0408131A;
 }
 
 input:user-invalid,
@@ -134,7 +134,7 @@ select:user-valid {
     background-color: #2EC4B6;
     color: #FFFFFF;
     width: 100%;
-    box-shadow: 0px 4px 50px 0px #0408131A;
+    box-shadow: 0rem 0.4rem 5rem 0rem #0408131A;
 }
 
 .terms {
@@ -147,7 +147,11 @@ select:user-valid {
 @media (max-width: 480px) {
     .main {
         flex-direction: column;
-        gap: 4px;
+        gap: 0.4rem;
+    }
+
+    .sign-up-card {
+        width: 100%;
     }
 
     #sign-up-form {
