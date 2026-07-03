@@ -18,13 +18,16 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    background-color: #2EC4B61A;
+}
+
 a {
     color: #2EC4B6;
 }
 
 .main {
     height: 100vh;
-    background-color: #2EC4B61A;
     display: flex;
     justify-content: space-around;
     padding: 4rem;
