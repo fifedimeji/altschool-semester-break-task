@@ -177,8 +177,19 @@ select:user-valid {
         margin-bottom: 0.8rem;
     }
 
+    .sign-up-wrapper {
+        width: 100%;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
     .sign-up-card {
+        width: 100%;
+        background-color: #FFFFFF;
+        box-shadow: 0rem 0.4rem 5rem 0rem #0408131A;
         border-radius: 0.6rem;
+        padding: 3rem 2rem;
     }
 
     #sign-up-form {
