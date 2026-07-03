@@ -55,18 +55,24 @@ a {
     margin-top: 1.5rem;
 }
 
+.sign-up-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #FFFFFF;
+    border-radius: 0.6rem;
+    box-shadow: 0rem 0.4rem 5rem 0rem #0408131A;
+    width: 58rem;
+}
+
 .sign-up-card {
-    font-family: 'Sofia Sans', sans serif;
+    font-family: 'Sofia Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: 600;
     color: #011C34;
-    background-color: #FFFFFF;
     align-self: center;
-    width: 58rem;
-    padding: 6rem 3rem;
-    border-radius: 0.6rem;
-    box-shadow: 0rem 0.4rem 5rem 0rem #0408131A;
-    margin-bottom: 4rem;
+    padding: 6rem 3rem 2rem;
+    width: 100%;
 }
 
 #sign-up-form {
@@ -142,9 +148,13 @@ select:user-valid {
 }
 
 .terms {
-    margin-top: 1.5rem;
+    font-family: 'Sofia Sans', sans-serif;
+    padding: 0 3rem 2.5rem;
     font-size: 1.4rem;
+    font-weight: 400;
+    color: #011C34;
     text-align: center;
+    line-height: 1.6;
 }
 
 
@@ -152,19 +162,36 @@ select:user-valid {
     .main {
         flex-direction: column;
         gap: 0.4rem;
+        padding: 2rem;
     }
 
-    .cta-content, .sign-up-card {
+    .cta-content, .sign-up-card, .sign-up-wrapper, .terms {
         width: 100%;
+    }
+
+    .cta-content {
+        font-weight: 300;
     }
 
     .cta-card {
         margin-bottom: 0.8rem;
     }
 
+    .sign-up-card {
+        border-radius: 0.6rem;
+    }
+
     #sign-up-form {
         display: flex;
         flex-direction: column;
         gap: 0.4rem;
+    }
+
+    .terms {
+        padding: 1.2rem 0 0;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        width: 100%;
     }
 }
