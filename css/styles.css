@@ -211,6 +211,7 @@ select:user-valid {
     }
 
     .terms {
+        margin-top: 0.8rem;
         padding: 1.2rem 0 0;
         background-color: transparent;
         box-shadow: none;
