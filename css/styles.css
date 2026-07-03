@@ -150,7 +150,7 @@ select:user-valid {
         gap: 0.4rem;
     }
 
-    .sign-up-card {
+    .cta-content, .sign-up-card {
         width: 100%;
     }
 
