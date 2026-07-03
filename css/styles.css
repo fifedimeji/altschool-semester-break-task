@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+@font-face {
+  font-family: 'Brown';
+  src: url('fonts/Brown-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    color: #2EC4B6;
+}
+
+.main {
+    height: 100vh;
+    background-color: #2EC4B61A;
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    line-height: 1.4;
+}
+
+.cta-card {
+    font-family: 'Brown', sans-serif;
+    align-self: center;
+}
+
+.cta-header {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000B0A;
+    margin-top: 2rem;
+    letter-spacing: -0.8px;
+}
+
+.cta-content {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #737373;
+    width: 46rem;
+    margin-top: 1.5rem;
+}
+
+.sign-up-card {
+    font-family: 'Sofia Sans', sans serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #011C34;
+    background-color: #FFFFFF;
+    align-self: center;
+    min-width: 580px;
+    padding: 60px 30px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 50px 0px #0408131A;
+}
+
+#sign-up-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.form-entry {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.4rem;
+}
+
+input,
+select,
+#dob {
+    padding: 1.2rem;
+    border: 1px solid #CCCCCC;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus,
+#dob:focus {
+    outline: none;
+    border-color: #2EC4B6;
+    box-shadow: 0px 4px 50px 0px #0408131A;
+}
+
+#dob {
+    cursor: pointer;
+    box-shadow: 0px 4px 50px 0px #0408131A;
+}
+
+input:user-invalid,
+select:user-invalid {
+    border-color: #e74c3c;
+}
+
+input:user-valid,
+select:user-valid {
+    border-color: #2EC4B6;
+}
+
+.select-field {
+    width: 100%;
+    padding: 1rem 4rem 1rem 1.2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.form-entry {
+    margin: 0.6rem 0.3rem;
+}
+
+.long-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    grid-column: 1 / -1;
+}
+
+.btn {
+    border: none;
+    background-color: #2EC4B6;
+    color: #FFFFFF;
+    width: 100%;
+    box-shadow: 0px 4px 50px 0px #0408131A;
+}
+
+.terms {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+@media (max-width: 480px) {
+    .main {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    #sign-up-form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+}
