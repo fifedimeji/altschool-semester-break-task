@@ -154,6 +154,10 @@ select:user-valid {
         width: 100%;
     }
 
+    .cta-card {
+        margin-bottom: 0.8rem;
+    }
+
     #sign-up-form {
         display: flex;
         flex-direction: column;
