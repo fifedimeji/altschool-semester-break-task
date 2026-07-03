@@ -185,6 +185,10 @@ select:user-valid {
         display: none;
     }
 
+    #cta-mobile {
+        display: block;
+    }
+
     .sign-up-wrapper {
         width: 100%;
         background-color: transparent;
